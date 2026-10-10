@@ -10,7 +10,7 @@ local cjson = require "cjson"
 local new = imgui.new
 
 -- EDIT THIS URL after deploying the Netlify backend.
-local API_BASE = "https://NAMA-SITUS.netlify.app/.netlify/functions/chat"
+local API_BASE = "local API_BASE ="https://projectnexusaprhodite.netlify.app"
 
 local windowOpen = new.bool(false)
 local roomInput = new.char[25]("LOBBY")
